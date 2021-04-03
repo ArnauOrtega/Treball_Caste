@@ -23,7 +23,6 @@ void loop() {
     input = read_buttons2(analogRead(A0));
   }
   if (pressed){
-    Serial.print(input);
   pass_check(input);
   pressed = false;
   }
